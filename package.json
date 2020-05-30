@@ -2,10 +2,21 @@
   "name": "test2",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:amireux347/test2.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amireux347/test2.git"
+  },
   "author": "amireux",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/amireux347/test2/issues"
+  },
+  "homepage": "https://github.com/amireux347/test2#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": ""
 }
